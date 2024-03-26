@@ -27,6 +27,8 @@ $fire = new Potion("Liquid Fire:");
 $fire->addIngredient("Teaspoon of Alcohol:", "Clear", "3");
 $fire->addIngredient("Dragon Scale:", "Red", "4");
 
+
+
 echo "<pre>";
 var_dump($fire->getIngredients());
 
